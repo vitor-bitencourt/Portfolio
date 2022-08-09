@@ -114,12 +114,124 @@
     gap: 1vw;
   }
 }
-
-@media screen and (max-width: 420px){
+@media screen and (max-width: 998px){
   .content-contato{
     padding: 14%;
     margin-top: 25vh;
     margin-bottom: 7vh;
+    height: 93vh;
+  }
+  .content-contato-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+  .content-contato-formulario-titulo{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color:  #0E3A73;
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+  .content-contato-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .content-contato-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+    
+  .content-contato-formulario-linkedin-link{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    min-width: 25vw;
+    max-width: 55vw;
+    font-size: 2rem;
+    color: #F5F5DC;
+    background-color: #6CC4FC;
+    border-radius: 10px;
+    padding: 5px 13.5px 5px 10px;
+    text-align: center;
+  }
+    
+  .content-contato-formulario-linkedin-link:hover{
+    color: #6CC4FC;
+    background-color: #0E3A73;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .formulario-contato{
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+  }
+    
+  .formulario-contato-identificação{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 2rem;
+    width: 80vw;
+    height: 7vh;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+  }
+  
+  .formulario-contato-mensagem{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 2rem;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 10px;
+    padding-left: 15px;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder { 
+    color: #0E3A73; 
+    text-align: left;
+    vertical-align: top;
+  
+  }
+  .envia-formulario{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 2rem;
+    min-width: 25vw;
+    max-width: 35vw;
+    color: #F5F5DC;
+    background-color: #6CC4FC;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+  }
+  
+  .envia-formulario:hover{
+    color: #6CC4FC;
+    background-color: #0E3A73;
+    cursor: pointer;
+    border: none;
+  }
+  .contato-btn-align{
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;
+  }
+  
+}
+@media screen and (max-width: 500px){
+  .content-contato{
+    padding: 14%;
+    margin-top: 25vh;
+    margin-bottom: 7vh;
+    height: 93vh;
   }
   .content-contato-title{
     display: flex;
