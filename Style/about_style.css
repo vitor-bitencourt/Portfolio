@@ -33,6 +33,9 @@
   .cargo{
     font-weight: 700;
   }
+  .content-sobre-mim-img{
+    height: 30vh;
+  }
 }
 @media screen and (max-width: 998px){
   .content-sobre-mim{
